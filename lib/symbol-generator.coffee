@@ -8,6 +8,7 @@ resym = /// ^ (
     entity.name.type.class
   | entity.name.function
   | entity.other.attribute-name.class
+  | meta.method
   ) ///
 
 # A simplistic regexp that is used to match the item immediately following.  I'll eventually
